@@ -642,7 +642,7 @@ img{
 	transition: all 0.4s ease-out;
 }
 .ft-right .button:hover{
-	width: 200px;
+	width: 190px;
 }
 .ft-right .button{
 	overflow: hidden;
