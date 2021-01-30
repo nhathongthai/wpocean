@@ -95,7 +95,7 @@ html {
 
 .menu {
   display: flex;
-  border-bottom: 2px solid rgb(146, 144, 144);
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
 .header {
   position: relative;
