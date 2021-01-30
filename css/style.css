@@ -471,6 +471,9 @@ body,html{
 	width: 90%;
 	
 }
+.our-clients{
+	background-color:#f5fbf9;
+}
 .slider-next .swiper-slide{
 	margin: 2px;
 	border-bottom: 2px solid #00d690;
