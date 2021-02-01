@@ -128,7 +128,7 @@
       <div class="swiper-container demo1">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="./images/slide-4.jpg" alt="" />
+            <img src="./images/slide-4.jpg" alt=""/>
             <div class="container">
               <div class="title-body">
                 <div class="slider-title animate__animated animate__fadeInLeft">
@@ -742,7 +742,7 @@
     </div>
 
     <script>
-      document.getElementById('animate__animated animate__fadeInLeft')
+      document.getElementById('.animate__animated animate__fadeInLeft');
     </script>
 
 
@@ -828,6 +828,40 @@
         let class_active = document.querySelector(".active");
         class_remove.classList.remove("active");
       });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+    $(".swiper-button-next").on("click", function () {
+      $(".slider-title").removeClass("animate__fadeInLeft");
+      $(".slider-sub").removeClass("animate__fadeInLeft");
+      $(".btns").removeClass(
+        "animate__fadeInLeft"
+      );
+      setTimeout(function () {
+        $(".slider-title").addClass("animate__fadeInLeft");
+        $(".slider-sub").addClass("animate__fadeInLeft");
+        $(".btns").addClass(
+          "animate__fadeInLeft"
+        );
+      }, 100);
+    });
+    $(".swiper-button-prev").on("click", function () {
+      $(".slider-title").removeClass("animate__fadeInLeft");
+      $(".slider-sub").removeClass("animate__fadeInLeft");
+      $(".btns").removeClass(
+        "animate__fadeInLeft"
+      );
+      setTimeout(function () {
+        $(".slider-title").addClass("animate__fadeInLeft");
+        $(".slider-sub").addClass("animate__fadeInLeft");
+        $(".btns").addClass(
+          "animate__fadeInLeft"
+        );
+      }, 100);
+    });
+  });
+  
     </script>
     <script src="./js/demo.js"></script>
     <script src="./js/jquery-3.5.1.min.js"></script>
