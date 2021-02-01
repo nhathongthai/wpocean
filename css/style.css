@@ -264,13 +264,7 @@ html {
   text-align: center;
   padding: 100px 10px;
 }
-.swiper-button-white{
-  width: 70px;
-  height: 70px;
-  background-color: #7cd1b5;
-  opacity: 0.8;
-  border-radius: 50%;
-}
+
 
 .title-pd {
   padding-bottom: 20px;
@@ -999,6 +993,7 @@ img {
   }
   .submit1 button {
     width: 300px;
+    margin-bottom: 20px;
   }
   .ft-input {
     padding-top: 15px;
